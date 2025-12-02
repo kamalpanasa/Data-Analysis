@@ -1,0 +1,70 @@
+Types of analysis:
+1.Descriptive 
+2.Predictive
+3.Prescriptive
+4.Diagnostic
+
+Types of data :
+1.Categotical data
+2.Numerical data
+
+Categorical data:
+  1.Nominal data
+  2.Ordinal data
+
+Numerical data:
+  1.Discrete data
+  2.Continuous data
+
+Types of encoding:
+1.Label Encoding
+2.One-Hot Encoding
+
+Types of Sampling Methods:
+1.Random Sampling
+2.Stratified Sampling
+3.Cluster Sampling
+4.Systematic Sampling
+
+Types of Statistics:
+1.Descriptive Statistics
+2.Inferential Statistics
+
+-- Data Extracting and Filling Missing Values --
+
+Methods to handle missing values:
+1.Remove rows with missing values
+2.Fill with mean/median/mode
+
+Data Analysis Steps:
+1.Importing Libraries
+2.Data Loading
+3.Data Cleaning
+4.Data Transformation
+5.Data Exploration
+6.Data Analysis
+7.Data Visualization
+8.Insight Generation
+
+-- Z-score and Z-test are different --
+Z-score is used to identify the outliers using xi - μ / σ
+Z-test is used to compare means of two groups to see if they are significantly different.
+
+There are two types of outliers :
+- Outliers due to variability in data or not due to experimental errors
+- Outliers due to experimental errors
+- You must handle outliers due to experimental errors by removing them from the dataset.
+
+
+-- We can make the outliers less significant by applying transformations like log transformation, square root transformation etc. --
+Handling outliers:
+1. Remove outliers
+2. Transform data:
+    - Log Transformation - np.[fun]
+    - Power Transformation - sklearn :
+          1. Box - cox
+          2. yeo - johnson 
+
+-- Whenever you want to analyse the two categorical columns, use Chi-Square test --
+-- Whenever you want to analyse the two numerical columns, use Anova test --
+
